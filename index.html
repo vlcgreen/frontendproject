@@ -4,9 +4,60 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Celebrator</title>
+    <style>
+        body{
+            height:100vh;
+            width:100vw;
+            padding:0px;
+            margin:0px;
+            
+        }
+        /* main{
+            min-height:50%;
+            /* background-color: yellow; */
+        /* }  */
+        #canvas-basic{
+        position: absolute;
+        display: block;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        }
+    </style>
 </head>
 <body>
-    Front end project
+<canvas id="canvas-basic">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est nihil laborum nisi quibusdam numquam consequatur, quidem, iusto quis quia atque aperiam ipsum enim sit labore necessitatibus accusantium quae consectetur quas.</p>
+    <nav></nav>
+</canvas>
+
+<script src="js/granim.min.js"></script>
+<script>
+var granimInstance = new Granim({
+    element: '#canvas-basic',
+    direction: 'left-right',
+    isPausedWhenNotInView: true,
+    //stateTransitionSpeed:10,
+    states : {
+        "default-state": {
+            gradients: [
+                ['#ff7b00','#ff8800' ],
+                ['#ff9500', '#ffa200'],
+                ['#ffaa00', '#ffaa00'],
+                ['#ffc300', '#ffd000'],
+                ['#ffdd00', '#ffea00'],
+
+
+                
+            ]
+        }
+    }
+});
+
+</script>
 </body>
 </html>
