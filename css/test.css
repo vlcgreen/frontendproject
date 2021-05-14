@@ -1,0 +1,44 @@
+body{
+    /* background-color: pink; */
+    margin:0px;
+    padding:0px;
+    width:100vw;
+    height:100vh;
+display:grid;
+grid-template-columns: 33.33% 33.33% 33.33% ;
+grid-template-rows: 15% auto 15% ;
+
+}
+
+main{
+background-color: blue;
+grid-column:1/span2 ;
+grid-row:2  ;
+}
+nav{
+    background-color: purple;
+    min-height: 25px;
+    grid-column-start:2;
+    grid-column-end:4;
+    grid-row-start:1;
+    z-index:10;
+}
+footer{
+    background-color: green;
+    grid-column:1/span2 ;
+    grid-row:3;
+}
+header{
+    background-color: yellow;
+    grid-column:1/span2 ;
+    grid-row:1;
+    display:grid;
+    grid-template-columns: 33.33% 33.33% 33.33% ;
+    grid-template-rows:1fr;
+}
+#logo{
+    grid-column:1;
+    grid-row:1;
+    background-color:orange;
+    z-index:10;
+}
