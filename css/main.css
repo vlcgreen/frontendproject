@@ -22,13 +22,17 @@ header{
 }
 
 #logo{
-    /* background-color:purple; */
+    background-color:purple;
     grid-column-start: 1;
     grid-column-end: 4;
     font-size: 4em;
     padding-left: .25em;
     color: white;
     
+}
+
+#logoText{
+    z-index:100;
 }
 .navbar{
     /* background-color:pink; */
