@@ -1,5 +1,4 @@
 body{
-background-color:blue;
 margin: 0px;
 padding: 0px;
 box-sizing: border-box;
@@ -33,6 +32,8 @@ header{
 }
 #logo>p{
     margin:0px; 
+    font-weight:600 ;
+    font-style: italic;
 }
 .navbar{
     /* background-color:pink; */
@@ -51,11 +52,9 @@ li{
     /* background-color:yellow; */
     white-space: nowrap;
     padding-left:2em;
+    font-weight:300 ;
 }
 
-a:hover{
-    color: #F15BB5;
-}
 
 main{
     background-color:white;
