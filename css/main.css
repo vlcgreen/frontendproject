@@ -74,7 +74,7 @@ footer{
 @media only screen and (max-width:1024px){
     body{
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-        grid-template-rows: auto 80% 10%;
+        grid-template-rows: auto auto 10%;
         }
 
         header{
