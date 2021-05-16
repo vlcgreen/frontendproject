@@ -4,6 +4,12 @@ main{
     align-items: center;
     justify-content: center;
 }
+h2{
+    font-size: 3em;
+    font-weight:600;
+    color:#00f5d4;
+    margin:.75em;
+}
 
 #buttonContainer{
 
@@ -29,7 +35,11 @@ button{
     background:transparent;
     font-size:1.35em;
     font-weight:600;
-    font-style:;
+
+}
+button:hover{
+    border: 2px solid white;
+    color:#00f5d4;
 }
 
 #blackTie{
