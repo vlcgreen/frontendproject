@@ -20,13 +20,7 @@ header{
 }
 
 #logo{
-<<<<<<< HEAD
-    background-color:purple;
-    grid-column-start: 1;
-    grid-column-end: 4;
-=======
     /* background-color:purple; */
->>>>>>> carol-production
     font-size: 4em;
     /* padding-left: .25em; */
     color: white;
@@ -36,16 +30,10 @@ header{
     margin-left:.5em;
     
 }
-<<<<<<< HEAD
-
-#logoText{
-    z-index:100;
-=======
 #logo>p{
     margin:0px; 
     font-weight:600 ;
     font-style: italic;
->>>>>>> carol-production
 }
 .navbar{
     /* background-color:pink; */
