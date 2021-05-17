@@ -64,19 +64,7 @@ main{
     
 }
 
-.themeName{
-    /* background-color: pink; */
-    grid-column-start: 2;
-    grid-column-end: 5;
-    grid-row-start: 1;
-    height: 40%;
-    margin-top: 5%;
-    display: grid;
-    align-content: center;
-    font-family: 'Poppins', sans-serif;
-    justify-content: center;
-    font-size: 5em;
-}
+
 
 footer{
     background-color: #0e273c;
@@ -92,6 +80,18 @@ footer{
     grid-column-end: 5;
     grid-row-start: 2;
     grid-row-end: 5; 
+}
+
+.themeName{
+    /* background-color: pink; */
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    display: grid;
+    align-content: center;
+    font-family: 'Poppins', sans-serif;
+    justify-content: center;
+    font-size: 5em;
 }
 
 input{
