@@ -101,7 +101,10 @@ input{
 
 label{
     margin-left: 90%;
-    margin-top: 30px;
+}
+
+label:hover{
+    color: #f15bb5;
 }
 
 #expand{
@@ -111,9 +114,7 @@ label{
     background-color: green;
     overflow: hidden;
     overflow-y: scroll;
-    margin-bottom: 50px;
-    
-    
+    margin-bottom: 30px;
 }
 
 #toggle:checked ~ #expand, #toggle1:checked ~ #expand {
@@ -145,6 +146,9 @@ img{
     grid-column-start: 2;
     grid-column-end: 5;
     height: 250px;
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+    grid-template-rows: 1fr;
 }
 .us2{
     background-color: grey;
@@ -152,6 +156,9 @@ img{
     grid-column-start: 2;
     grid-column-end: 5;
     height: 250px;
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+    grid-template-rows: 1fr;
 }
 .us3{
     background-color: grey;
@@ -159,6 +166,9 @@ img{
     grid-column-start: 2;
     grid-column-end: 5;
     height: 250px;
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+    grid-template-rows: 1fr;
 }
 .us4{
     background-color: grey;
@@ -166,6 +176,9 @@ img{
     grid-column-start: 2;
     grid-column-end: 5;
     height: 250px;
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+    grid-template-rows: 1fr;
 }
 
 @media only screen and (max-width:768px){
