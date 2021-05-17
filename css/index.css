@@ -1,0 +1,27 @@
+/* body{
+    background-color: purple;
+} */
+
+header{
+background-color: transparent;  
+z-index: 20;
+}
+#logoText{
+    color:transparent;
+}
+#canvas-basic,#mask{
+    grid-column:1/12;
+    grid-row: 1/3;
+    display: block;
+    width: 100vw;
+    height: 100vh;
+}
+
+#mask{
+    z-index:10;
+}
+
+
+#canvas-basic, header{
+    grid-row-start:1;
+}

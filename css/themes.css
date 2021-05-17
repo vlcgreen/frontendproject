@@ -10,6 +10,18 @@ h2{
     color:#00f5d4;
     margin:.75em;
 }
+#canvas-basic, #mask{
+    grid-column:1;
+    grid-row: 1;
+    display: block;
+    width:400px;
+    /* grid-row-start:1;
+    grid-column-start: 1; */
+}
+
+#mask{
+    z-index:10;
+}
 
 #buttonContainer{
 
