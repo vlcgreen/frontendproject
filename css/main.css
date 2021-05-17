@@ -1,3 +1,4 @@
+/* Main Page */
 body{
 margin: 0px;
 padding: 0px;
@@ -12,11 +13,10 @@ font-family: 'Poppins', sans-serif;
 
 header{
     background-color: #0e273c;
-    grid-column-start: 1;
-    grid-column-end: 12;
     display:flex;
     justify-content:space-between;
     align-items: center;
+
 }
 
 #logo{
@@ -40,6 +40,10 @@ header{
     margin-right:1.75em;
 }
 
+.white{
+    color: white;
+}
+
 
 ul{
     /* background-color:red; */
@@ -61,8 +65,13 @@ main{
     grid-row-start: 2;
     grid-column-start: 1;
     grid-column-end: 12;
-
+    display: grid;
+    grid-template-columns: 1fr 6fr 6fr 6fr 1fr;
+    grid-template-rows: 3fr 4fr 1fr 4fr 1fr;
+    
 }
+
+
 
 footer{
     background-color: #0e273c;
@@ -71,7 +80,119 @@ footer{
     grid-column-end: 12;
 }
 
+
+/* Display Theme */
+.content{
+    /* background-color: grey; */
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 5; 
+}
+
+.themeName{
+    /* background-color: pink; */
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    display: grid;
+    align-content: center;
+    font-family: 'Poppins', sans-serif;
+    justify-content: center;
+    font-size: 5em;
+}
+
+input{
+    display: none;
+    visibility: hidden;
+}
+
+label{
+    margin-left: 90%;
+}
+
+label:hover{
+    color: #f15bb5;
+}
+
+#expand{
+    height: 0;
+    overflow: hidden;
+    transition: height  .5s;
+    background-color: green;
+    overflow: hidden;
+    overflow-y: scroll;
+    margin-bottom: 30px;
+}
+
+#toggle:checked ~ #expand, #toggle1:checked ~ #expand {
+    height: 600px;
+}
+
+img{
+    height: 239px;
+    width: 25%;
+} 
+.preview{
+    display: flex;
+    justify-content: space-around;
+}
+/* About Us */
+
+#main{
+    background-color:white;
+    grid-row-start: 2;
+    grid-column-start: 1;
+    grid-column-end: 12;
+    display: grid;
+    grid-template-columns: 1fr 6fr 6fr 6fr 1fr;
+    grid-template-rows: 1fr 4fr 1fr 4fr 1fr 4fr 1fr 4fr 1fr;
+}
+.us1{
+    background-color: grey;
+    grid-row-start: 2;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    height: 250px;
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+    grid-template-rows: 1fr;
+}
+.us2{
+    background-color: grey;
+    grid-row-start: 4;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    height: 250px;
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+    grid-template-rows: 1fr;
+}
+.us3{
+    background-color: grey;
+    grid-row-start: 6;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    height: 250px;
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+    grid-template-rows: 1fr;
+}
+.us4{
+    background-color: grey;
+    grid-row-start: 8;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    height: 250px;
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+    grid-template-rows: 1fr;
+}
+
+
+
 @media only screen and (max-width:1024px){
+
     body{
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
         grid-template-rows: auto auto 10%;
