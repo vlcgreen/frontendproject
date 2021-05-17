@@ -1,29 +1,41 @@
 /* Main Page */
+body{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  height: 100vh;
+  width: 100vw;
+  font-family: 'Poppins', sans-serif;
+  }
+
 
 header{
     background-color: #0E273C;
-    /* grid-column-start: 1;
-    grid-column-end: 12; */
     display:flex;
     justify-content:space-between;
     align-items: center;
+    width :100vw;
+    height:15%;
 }
 
 
 #logo{
   /* background-color:purple; */
   font-size: 4em;
-  /* padding-left: .25em; */
   color: white;
   display:flex;
   justify-content: center;
   align-items: center;
   margin-left:.5em;
 }
+#logo>p{
+  margin:0px; 
+  font-weight:600 ;
+  font-style: italic;
+}
 .navbar {
   /* background-color:pink; */
-  grid-column-start: 4;
-  grid-column-end: 12;
+  margin-right:1.75em;
 }
 
 .white {
@@ -32,7 +44,7 @@ header{
 
 ul {
   /* background-color:red; */
-  margin-left: 65%;
+  /* margin-left: 65%; */
   font-size: 1.25em;
   color: white;
 }
@@ -40,15 +52,15 @@ ul {
 li {
   /* background-color:yellow; */
   white-space: nowrap;
+  padding-left:2em;
+  font-weight:300 ;
 }
-
 
 
 footer {
   background-color: #0e273c;
-  grid-row: 3;
-  grid-column-start: 1;
-  grid-column-end: 12;
+  width:100%;
+  height:15%;
 }
 
 /* Display Theme */
@@ -109,56 +121,6 @@ img {
   justify-content: space-around;
 }
 
-
-
-
-
-
-/* body{
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
-  height: 100vh;
-  width: 100vw;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 15% auto 15%;
-  font-family: 'Poppins', sans-serif;
-  }
-  
-  
-  #logo>p{
-      margin:0px;
-      font-weight:600 ;
-      font-style: italic;
-  }
-  .navbar{
-    background-color:pink; 
-      margin-right:1.75em;
-  }
-  ul{
-      background-color:red; 
-      font-size: 1.25em;
-      color: white;
-  }
-  li{
-      /* background-color:yellow; 
-      white-space: nowrap;
-      padding-left:2em;
-      font-weight:300 ;
-  }
-  main{
-      background-color:white;
-      grid-row-start: 2;
-      grid-column-start: 1;
-      grid-column-end: 12;
-  }
-  footer{
-      background-color: #0E273C;
-      grid-row: 3;
-      grid-column-start: 1;
-      grid-column-end: 12;
-  /* } 
   @media only screen and (max-width:1024px){
       body{
           grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -178,7 +140,5 @@ img {
           padding-left:0em;
       }
   }
-  @media only screen and (max-width:360px){}
-   */
   
   
