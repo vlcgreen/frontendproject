@@ -86,13 +86,13 @@ footer{
 }
 
 /* Display Theme */
-.recipes{
+.content{
     /* background-color: grey; */
     grid-column-start: 2;
     grid-column-end: 5;
     grid-row-start: 2;
     grid-row-end: 5; 
-    }
+}
 
 input{
     display: none;
