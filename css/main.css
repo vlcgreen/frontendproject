@@ -222,7 +222,7 @@ p{
 }
 .us4{
     /* background-color: #f15bb5; */
-    border: 10px double #00f5d4;
+    border: 10px double #f15bb5;
     grid-row-start: 8;
     grid-column-start: 2;
     grid-column-end: 5;
