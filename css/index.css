@@ -21,7 +21,33 @@ z-index: 20;
     z-index:10;
 }
 
+#tagline{
+    z-index:30;
+    color:white;
+    font-size: 2em;
+    text-align: center;
+    /* justify-self: center; */
+    justify-self: center;
+    align-self: center;
+    transform: translateY(115%);
+    width:80%;
+}
+
 
 #canvas-basic, header{
     grid-row-start:1;
 }
+
+@media only screen and (max-width:1024px){
+    #tagline{
+    transform: translateY(30%);
+    width:90%;
+    font-size: 1.5em;
+    }
+
+
+
+}
+
+
+
