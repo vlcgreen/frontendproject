@@ -36,9 +36,9 @@ amazonPull();
 
 
 function createCard(title, price, image, link) {
-    var body = document.body;
+    var searchContainer = document.querySelector('.amazonSearch')
     var div = document.createElement("div");
-    body.append(div);
+    searchContainer.append(div);
     div.innerHTML = `<div class="card" style="width: 18rem;"><a href ="${link}">
       <img class="card-img-top" src="${image}" alt="Card image cap">
       <div class="card-body">
