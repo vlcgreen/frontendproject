@@ -845,10 +845,10 @@ for (let i = 0; i <= oceanRecipes.length - 1; i++) {
 }
 
 function createCard(title, previewText, src, link) {
-  var recipeContainer = document.querySelector('.recipes')
+  var recipeContainer = document.querySelector(".recipes");
   var div = document.createElement("div");
   recipeContainer.append(div);
-  div.innerHTML = `<div class="card" style="width: 18rem;"><a href ="${link}">
+  div.innerHTML = `<div class="card overflow-auto m-3" style="width: 18rem height: 25rem;"><a href ="${link}">
     <img class="card-img-top" src="${src}" alt="Allrecipes photo">
     <div class="card-body">
       <h5 class="card-title">${title}</h5>
