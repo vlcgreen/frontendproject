@@ -1,7 +1,7 @@
 //celebrator web app 
 
 //keywords:
-let theme = 'MardiGras'
+let theme = localStorage.themeID
 
 
 async function amazonPull(){
