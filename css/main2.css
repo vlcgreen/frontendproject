@@ -27,6 +27,7 @@ header{
   justify-content: center;
   align-items: center;
   margin-left:.5em;
+  font-family: 'a Alloy Ink';
 }
 #logo>p{
   margin:0px; 
@@ -71,7 +72,15 @@ footer {
   grid-row-start: 2;
   grid-row-end: 5;
 }
-
+.seeButton{
+  color:#f15bb5;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+}
+.seeButton:hover{
+  color:#00f5d4;
+}
 .themeName {
   /* background-color: pink; */
   grid-column-start: 2;
