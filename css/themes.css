@@ -71,13 +71,13 @@ button:hover{
     width:10em;
     height:10em;
 }
-#glow{
+#nautical{
     background-image:url("/images/nautical.png");
     background-size:cover;
     width:10em;
     height:10em;
 }
-#int{
+#international{
     background-image:url("/images/international.jpg");
     background-size:cover;
     width:10em;
@@ -102,7 +102,7 @@ button:hover{
     width:10em;
     height:10em;
 }
-#ren{
+#renaissance{
     background-image:url("/images/renaissance.jpg");
     background-size:cover;
     width:10em;
