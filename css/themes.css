@@ -46,13 +46,13 @@ button:hover{
 }
 
 #blackTie{
-    background-image:url("/images/blacktie.jpg");
+    background-image:url("/frontendproject/images/blacktie.jpg");
     background-size:cover;
     width:10em;
     height:10em;
 }
 #carnival{
-    background-image:url("/images/carnival.jpg");
+    background-image:url("/frontendproject/images/carnival.jpg");
     background-size:cover;
     width:10em;
     height:10em;

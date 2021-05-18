@@ -1,4 +1,5 @@
 /* Main Page */
+
 body{
 margin: 0px;
 padding: 0px;
@@ -28,13 +29,17 @@ header{
     justify-content: center;
     align-items: center;
     margin-left:.5em;
-    
+    font-family: 'a Alloy Ink';
 }
-#logo>p{
+
+.logoName{
+    text-decoration: none;
+    color: white;
     margin:0px; 
     font-weight:600 ;
     font-style: italic;
 }
+
 .navbar{
     /* background-color:pink; */
     margin-right:1.75em;
@@ -43,7 +48,6 @@ header{
 .white{
     color: white;
 }
-
 
 ul{
     /* background-color:red; */
@@ -60,7 +64,6 @@ li{
     
 }
 
-
 main{
     background-color:white;
     grid-row-start: 2;
@@ -71,8 +74,6 @@ main{
     grid-template-rows: 3fr 4fr 1fr 4fr 1fr;
     
 }
-
-
 
 footer{
     background-color: #0e273c;
@@ -134,12 +135,20 @@ img{
     height: 239px;
     
 } 
+
 .preview{
     display: flex;
     justify-content: space-around;
 }
+
 /* About Us */
 
+p{
+    line-height: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
 #main{
     background-color:white;
     grid-row-start: 2;
@@ -147,47 +156,57 @@ img{
     grid-column-end: 12;
     display: grid;
     grid-template-columns: 1fr 6fr 6fr 6fr 1fr;
-    grid-template-rows: 1fr 4fr 1fr 4fr 1fr 4fr 1fr 4fr 1fr;
+    grid-template-rows: 1fr 4fr 1fr 4fr 1fr 4fr 1fr 4fr 1fr; 
 }
 .us1{
-    background-color: grey;
+    background-color: #f15bb5;
     grid-row-start: 2;
     grid-column-start: 2;
     grid-column-end: 5;
-    height: 250px;
+    height: 260px;
     display: grid;
     grid-template-columns: 2fr 4fr;
-    grid-template-rows: 1fr;
+    grid-template-rows: 1fr; 
+    align-items: center;
+    justify-items: center; 
+    border-radius: 20px;
 }
 .us2{
-    background-color: grey;
+    background-color: #00f5d4;
     grid-row-start: 4;
     grid-column-start: 2;
-    grid-column-end: 5;
-    height: 250px;
+    grid-column-end: 5; 
+    height: 260px;
     display: grid;
-    grid-template-columns: 2fr 4fr;
+    grid-template-columns: 1fr 3fr;
     grid-template-rows: 1fr;
+    align-items: center;
+    justify-items: center;
 }
 .us3{
-    background-color: grey;
+    background-color: #fee440;
     grid-row-start: 6;
     grid-column-start: 2;
     grid-column-end: 5;
-    height: 250px;
+    height: 260px;
     display: grid;
-    grid-template-columns: 2fr 4fr;
+    grid-template-columns: 1fr 4fr;
     grid-template-rows: 1fr;
+    align-items: center;
+    justify-items: center;
+    border-radius: 10px;
 }
 .us4{
-    background-color: grey;
+    /* background-color: grey; */
     grid-row-start: 8;
     grid-column-start: 2;
     grid-column-end: 5;
-    height: 250px;
+    height: 260px;
     display: grid;
-    grid-template-columns: 2fr 4fr;
-    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr; 
+    align-items: center;
+    justify-items: center;
 }
 
 
