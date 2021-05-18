@@ -1,3 +1,10 @@
+@font-face {
+    font-family: SignPainter;
+    src: url(fonts/SignPainter\ HouseScript\ Regular.ttf);
+}
+
+
+
 /* Main Page */
 
 body{
@@ -29,15 +36,14 @@ header{
     justify-content: center;
     align-items: center;
     margin-left:.5em;
-    font-family: 'a Alloy Ink';
+    font-family: SignPainter;
 }
 
 .logoName{
     text-decoration: none;
     color: white;
     margin:0px; 
-    font-weight:600 ;
-    font-style: italic;
+    
 }
 
 .navbar{
@@ -133,6 +139,9 @@ label:hover{
 
 img{
     height: 239px;
+    border-radius: 10px;
+    align-self: center;
+    
     
 } 
 
@@ -147,7 +156,8 @@ p{
     line-height: 30px;
     padding-left: 10px;
     padding-right: 10px;
-    
+    font-size: 1em;
+    flex-grow: 3;
 }
 #main{
     background-color:white;
@@ -159,55 +169,83 @@ p{
     grid-template-rows: 1fr 4fr 1fr 4fr 1fr 4fr 1fr 4fr 1fr; 
 }
 .us1{
-    background-color: #f15bb5;
+    /* background-color: #f15bb5; */
+    border: 10px double #00f5d4;
     grid-row-start: 2;
     grid-column-start: 2;
     grid-column-end: 5;
-    height: 260px;
-    display: grid;
-    grid-template-columns: 2fr 4fr;
-    grid-template-rows: 1fr; 
+    /* height: 280px; */
+    display: flex;
+    /* grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr;  */
     align-items: center;
     justify-items: center; 
-    border-radius: 20px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.vic{
+    display: flex;
 }
 .us2{
-    background-color: #00f5d4;
+    /* background-color: #00f5d4; */
+    border: 10px double #f15bb5;
     grid-row-start: 4;
     grid-column-start: 2;
     grid-column-end: 5; 
-    height: 260px;
-    display: grid;
-    grid-template-columns: 1fr 3fr;
-    grid-template-rows: 1fr;
-    align-items: center;
-    justify-items: center;
-}
-.us3{
-    background-color: #fee440;
-    grid-row-start: 6;
-    grid-column-start: 2;
-    grid-column-end: 5;
-    height: 260px;
-    display: grid;
-    grid-template-columns: 1fr 4fr;
-    grid-template-rows: 1fr;
+    /* height: 280px; */
+    display: flex;
+    /* grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr; */
     align-items: center;
     justify-items: center;
     border-radius: 10px;
+    padding: 20px;
+}
+
+.rol{
+    display: flex;
+}
+
+.us3{
+    /* background-color: #f15bb5; */
+    border: 10px double #00f5d4;
+    grid-row-start: 6;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    /* height: 280px; */
+    display: flex;
+    /* grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr;  */
+    align-items: center;
+    justify-items: center; 
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.car{
+    display: flex;
 }
 .us4{
-    /* background-color: grey; */
+    /* background-color: #f15bb5; */
+    border: 10px double #f15bb5;
     grid-row-start: 8;
     grid-column-start: 2;
     grid-column-end: 5;
-    height: 260px;
-    display: grid;
-    grid-template-columns: 1fr 4fr;
-    grid-template-rows: 1fr; 
+    /* height: 280px; */
+    display: flex;
+    /* grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr;  */
     align-items: center;
-    justify-items: center;
+    justify-items: center; 
+    border-radius: 10px;
+    padding: 20px;
 }
+
+.coo{
+    display: flex;
+}
+
 
 
 
@@ -233,6 +271,19 @@ p{
 
     li{
         padding-left:0em;
+    }
+
+    .vic{
+        flex-direction: column;
+    }
+    .rol{
+        flex-direction: column;
+    }
+    .car{
+        flex-direction: column;
+    }
+    .coo{
+        flex-direction: column;
     }
 }
 @media only screen and (max-width:360px){}

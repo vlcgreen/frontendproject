@@ -1,3 +1,9 @@
+@font-face {
+  font-family: SignPainter;
+  src: url(fonts/SignPainter\ HouseScript\ Regular.ttf);
+}
+
+
 /* Main Page */
 body{
   margin: 0px;
@@ -6,6 +12,7 @@ body{
   height: 100vh;
   width: 100vw;
   font-family: 'Poppins', sans-serif;
+  
   }
 
 
@@ -15,7 +22,7 @@ header{
     justify-content:space-between;
     align-items: center;
     width :100vw;
-    height:15%;
+    /* height:15%; */
 }
 
 
@@ -27,15 +34,14 @@ header{
   justify-content: center;
   align-items: center;
   margin-left:.5em;
-  font-family: 'a Alloy Ink';
+  font-family: SignPainter;
 }
 
 .logoName{
   text-decoration: none;
   color: white;
   margin:0px; 
-  font-weight:600 ;
-  font-style: italic;
+
 }
 
 .navbar {
@@ -66,6 +72,18 @@ footer {
   background-color: #0e273c;
   width:100%;
   height:15%;
+  display: flex;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+.footerLinks{
+  
+}
+
+.footerLinks a{
+  text-decoration: none;
+  color: white;
+  justify-content: end;
 }
 
 /* Display Theme */
@@ -94,6 +112,7 @@ footer {
   align-content: center;
   font-family: "Poppins", sans-serif;
   justify-content: center;
+  text-align: center;
   font-size: 5em;
 }
 
@@ -160,6 +179,6 @@ img {
       li{
           padding-left:0em;
       }
-  }
+  } 
   
   
