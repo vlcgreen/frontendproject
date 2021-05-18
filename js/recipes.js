@@ -129,7 +129,6 @@ let carnivalRecipes = [
     link: "https://www.allrecipes.com/recipe/246697/capeta-brazilian-devil-cocktail/",
   },
 ];
-
 let luauRecipes = [
   {
     title: "Luau Punch",
@@ -846,15 +845,14 @@ for (let i = 0; i <= oceanRecipes.length - 1; i++) {
 }
 
 function createCard(title, previewText, src, link) {
-  var body = document.body;
+  var recipeContainer = document.querySelector('.recipes')
   var div = document.createElement("div");
-  body.append(div);
+  recipeContainer.append(div);
   div.innerHTML = `<div class="card" style="width: 18rem;"><a href ="${link}">
     <img class="card-img-top" src="${src}" alt="Allrecipes photo">
     <div class="card-body">
       <h5 class="card-title">${title}</h5>
       <p class="card-text">${previewText}</p>
-
       <a/>
     </div>
   </div>`;
