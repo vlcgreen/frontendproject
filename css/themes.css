@@ -1,3 +1,4 @@
+
 main{
     display:flex;
     flex-direction: column;
@@ -30,6 +31,7 @@ h2{
 button{
     display:inline-block;
     border:none;
+    border-radius: 10px;
     margin:1em;
     text-decoration: none;
     text-align: center;
@@ -70,13 +72,13 @@ button:hover{
     width:10em;
     height:10em;
 }
-#glow{
-    background-image:url("/images/glow.jpg");
+#nautical{
+    background-image:url("/images/nautical.png");
     background-size:cover;
     width:10em;
     height:10em;
 }
-#int{
+#international{
     background-image:url("/images/international.jpg");
     background-size:cover;
     width:10em;
@@ -101,7 +103,7 @@ button:hover{
     width:10em;
     height:10em;
 }
-#ren{
+#renaissance{
     background-image:url("/images/renaissance.jpg");
     background-size:cover;
     width:10em;
