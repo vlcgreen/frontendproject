@@ -1,0 +1,111 @@
+
+main{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h2{
+    /* font-size: 3em;
+    font-weight:600;
+    color:#00f5d4;
+    margin:.75em; */
+    align-content: center;
+    font-family: "Poppins", sans-serif;
+    justify-content: center;
+    font-size: 5em;
+}
+
+#buttonContainer{
+
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+    grid-row-start: 2;
+    grid-column-start:2;
+    grid-column-end: 11;
+
+}
+
+button{
+    display:inline-block;
+    border:none;
+    border-radius: 10px;
+    margin:1em;
+    text-decoration: none;
+    text-align: center;
+    color:#f15bb5;
+    /* color:#00f5d4; */
+    background:transparent;
+    font-size:1.35em;
+    font-weight:600;
+
+}
+button:hover{
+    border: 2px solid white;
+    color:#00f5d4;
+}
+
+#blackTie{
+    background-image:url("/images/blacktie.jpg");
+    background-size:cover;
+    width:10em;
+    height:10em;
+}
+#carnival{
+    background-image:url("/images/carnival.jpg");
+    background-size:cover;
+    width:10em;
+    height:10em;
+}
+#cowboy{
+    background-image:url("/images/cowboy.jpg");
+    background-size:cover;
+    width:10em;
+    height:10em;
+
+}
+#disney{
+    background-image:url("/images/disney.jpg");
+    background-size:cover;
+    width:10em;
+    height:10em;
+}
+#nautical{
+    background-image:url("/images/nautical.png");
+    background-size:cover;
+    width:10em;
+    height:10em;
+}
+#international{
+    background-image:url("/images/international.jpg");
+    background-size:cover;
+    width:10em;
+    height:10em;
+
+}
+#jungle{
+    background-image:url("/images/jungle.jpg");
+    background-size:cover;
+    width:10em;
+    height:10em;
+}
+#luau{
+    background-image:url("/images/luau.jpg");
+    background-size:cover;
+    width:10em;
+    height:10em;
+}
+#mardiGras{ 
+    background-image:url("/images/mardigras.jpg");
+    background-size:cover;
+    width:10em;
+    height:10em;
+}
+#renaissance{
+    background-image:url("/images/renaissance.jpg");
+    background-size:cover;
+    width:10em;
+    height:10em;
+}
