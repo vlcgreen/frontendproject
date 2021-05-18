@@ -29,11 +29,15 @@ header{
   margin-left:.5em;
   font-family: 'a Alloy Ink';
 }
-#logo>p{
+
+.logoName{
+  text-decoration: none;
+  color: white;
   margin:0px; 
   font-weight:600 ;
   font-style: italic;
 }
+
 .navbar {
   /* background-color:pink; */
   margin-right:1.75em;
@@ -83,10 +87,10 @@ footer {
 }
 .themeName {
   /* background-color: pink; */
-  grid-column-start: 2;
+  /* grid-column-start: 2;
   grid-column-end: 5;
   grid-row-start: 1;
-  display: grid;
+  display: grid; */
   align-content: center;
   font-family: "Poppins", sans-serif;
   justify-content: center;
@@ -144,7 +148,15 @@ img {
           }
           .navbar{
               margin-right: 0em;
+              
           }
+
+          button{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          }
+
       li{
           padding-left:0em;
       }

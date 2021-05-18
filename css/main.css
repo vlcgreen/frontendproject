@@ -30,14 +30,16 @@ header{
     align-items: center;
     margin-left:.5em;
     font-family: 'a Alloy Ink';
-    
-    
 }
-#logo>p{
+
+.logoName{
+    text-decoration: none;
+    color: white;
     margin:0px; 
     font-weight:600 ;
     font-style: italic;
 }
+
 .navbar{
     /* background-color:pink; */
     margin-right:1.75em;
@@ -46,7 +48,6 @@ header{
 .white{
     color: white;
 }
-
 
 ul{
     /* background-color:red; */
@@ -63,7 +64,6 @@ li{
     
 }
 
-
 main{
     background-color:white;
     grid-row-start: 2;
@@ -74,8 +74,6 @@ main{
     grid-template-rows: 3fr 4fr 1fr 4fr 1fr;
     
 }
-
-
 
 footer{
     background-color: #0e273c;
@@ -137,6 +135,7 @@ img{
     height: 239px;
     
 } 
+
 .preview{
     display: flex;
     justify-content: space-around;
@@ -150,7 +149,6 @@ p{
     padding-right: 10px;
     
 }
-
 #main{
     background-color:white;
     grid-row-start: 2;
