@@ -1,14 +1,51 @@
 //celebrator web app 
 
 //keywords:
-let theme = localStorage.themeID
+let theme = localStorage.themeID 
+var searchTerm = ""
+
+if (theme == "blackTie"){
+    var searchTerm = "black+tie+event"
+}
+else if (theme == 'carnival'){
+    var searchTerm = "carnival"
+}
+else if (theme == 'cowboy'){
+    var searchTerm = "cowboy+theme"
+}
+else if(theme == 'disney'){
+    var searchTerm = "disney"
+
+}
+else if(theme == "nautical"){
+    var searchTerm = "nautical"
+
+}
+else if(theme == "international"){
+    var searchTerm = "international"
+
+}
+else if(theme == "jungle"){
+    var searchTerm = "jungle+theme"
+}
+else if(theme == 'luau'){
+    var searchTerm = "luau"
+
+}
+else if(theme == "mardiGras"){
+    var searchTerm = "mardi+gras"
+}
+else if(theme == "renaissance"){
+    var searchTerm = "renaissance"
+
+}
 
 
 async function amazonPull(){
 
     let resultsarr = []
 
-    const response = await fetch(`https://api.rainforestapi.com/request?api_key=${apiKey}&type=search&amazon_domain=amazon.com&search_term=${theme}+party+decorations&sort_by=most_recent`)
+    const response = await fetch(`https://api.rainforestapi.com/request?api_key=${apiKey}&type=search&amazon_domain=amazon.com&search_term=${searchTerm}+party+decorations&sort_by=featured`)
     const searchData = await response.json();
     searchResults = searchData;
     console.log(searchResults)
