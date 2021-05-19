@@ -10,7 +10,7 @@ Celebrator works as a bridge between people who want a themed party but have no 
 Choose a theme. Get food and supply recommendations on the spot. Celebrate more, worry less!
 ## Tech Stack
 * HTML,  CSS, Javascript
-* Other: AJAX, .jQuery, Webscraping, JSON Photoshop, Pixelmator Pro, Granim.js library, Amazon API
+* Other: AJAX, .jQuery, Webscraping, Pixelmator Pro, Granim.js library, Amazon API
 ## Code Snippets
 
 **Webscraping**
