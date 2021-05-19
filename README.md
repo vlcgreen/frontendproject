@@ -1,5 +1,5 @@
 # Celebrator
-Celebrator works as a bridge between people who want a theme party but have no idea where to start. By selecting a theme it'll populate top recipes and decorations that can assist with creating the perfect party.
+Celebrator works as a bridge between people who want a themed party but have no idea where to start. By selecting a theme it'll populate top recipes and decorations that can assist with creating the perfect party.
 
 ![start-page](https://user-images.githubusercontent.com/81443343/118855237-6be37b00-b88a-11eb-89d3-70c9f358dad1.png)
 ![theme-display](https://user-images.githubusercontent.com/81443343/118855279-76057980-b88a-11eb-8266-02307553d5d2.png)
