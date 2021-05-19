@@ -80,7 +80,7 @@ footer {
   color: white;
   font-family: 'Poppins', sans-serif;
 }
-p{
+.copy{
   display: flex;
   width: 60vw;
 }
