@@ -105,8 +105,9 @@ footer{
     display: flex;
     align-self: center;
     width: 100vw;
-    padding-left: 10px;
+    padding-left: 30px;
     align-items: center;
+    font-family: "Poppins", sans-serif;
 }
 
 .flinks{
@@ -114,12 +115,14 @@ footer{
     display: flex;
     justify-content: flex-end;
     align-self: center;
+    padding-right: 50px;
 }
 
 .footerLinks a{
     text-decoration: none;
     color: white;
     padding: 0px 10px;
+    
 }
 
 

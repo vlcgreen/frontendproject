@@ -91,6 +91,7 @@ p{
   width: 100vw;
   padding-left: 10px;
   align-items: center;
+  font-family: "Poppins", sans-serif;
 }
 
 .flinks{
@@ -98,6 +99,7 @@ p{
   display: flex;
   justify-content: flex-end;
   align-self: center;
+  padding-right: 50px;
 }
 
 .footerLinks a{
