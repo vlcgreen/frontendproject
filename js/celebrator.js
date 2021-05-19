@@ -55,7 +55,7 @@ async function amazonPull(){
     })
     // console.log(resultsarr)
 
-    for (let i=0; i<=resultsarr.length; i++){
+    for (let i=0; i<=12; i++){
         let title = resultsarr[i].title
         let image = resultsarr[i].image
         let link = resultsarr[i].link
