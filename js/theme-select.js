@@ -120,13 +120,6 @@ const recipes = {
         "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F5127986.jpg",
       link: "https://www.allrecipes.com/recipe/258269/tortelli-di-carnevale-italian-carnevale-doughnuts/",
     },
-    {
-      title: "",
-      previewText:
-        "\n                                  Capeta, which means devil in Portugese, is the name of this Carnival must-have drink, very popular in northern Brazil. This calls for guarana powder, which comes from a berry grown in Brazil and Venezuela; you can find it sold in health food shops as an energy supplement.\n                                ",
-      image: "/img/icons/generic-recipe.svg",
-      link: "https://www.allrecipes.com/recipe/246697/capeta-brazilian-devil-cocktail/",
-    },
   ],
   luau: [
     {
@@ -234,13 +227,6 @@ const recipes = {
       image:
         "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F1898613.jpg",
       link: "https://www.allrecipes.com/recipe/237310/slow-cooker-black-eyed-peas/",
-    },
-    {
-      title: "",
-      previewText:
-        "\n                                  Remember those smoked turkey legs at Disney? This is the closest recipe I have found.\n                                ",
-      image: "/img/icons/generic-recipe.svg",
-      link: "https://www.allrecipes.com/recipe/281606/smoked-turkey-legs/",
     },
   ],
   cowboy: [
@@ -611,26 +597,12 @@ const recipes = {
       link: "https://www.allrecipes.com/recipe/99236/jungle-lobster/",
     },
     {
-      title: "",
-      previewText:
-        "\n                                  Enjoy this fruit filled punch for all occasions.\n                                ",
-      image: "/img/icons/generic-recipe.svg",
-      link: "https://www.allrecipes.com/recipe/125549/jungle-juice-for-a-crowd/",
-    },
-    {
       title: "Budget Jungle Juice for a Crowd",
       previewText:
         "\n                                  This is a recipe for a great alcoholic punch that will serve many on a limited budget. You may add vanilla ice cream if you wish.\n                                ",
       image:
         "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F616475.jpg",
       link: "https://www.allrecipes.com/recipe/137430/budget-jungle-juice-for-a-crowd/",
-    },
-    {
-      title: "",
-      previewText:
-        "\n                                  Chicken breasts, marinated in sweetened condensed milk and pan-fried, are served in a flavorful, chocolate and wine sauce.\n                                ",
-      image: "/img/icons/generic-recipe.svg",
-      link: "https://www.allrecipes.com/recipe/56248/chocolate-mayan-jungle-bird/",
     },
     {
       title: "Mushroom Curry with Galangal",
@@ -647,13 +619,6 @@ const recipes = {
       image:
         "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F4574666.jpg",
       link: "https://www.allrecipes.com/recipe/261185/lion-veggie-tray/",
-    },
-    {
-      title: "",
-      previewText:
-        "\n                                  I miss jungle fruit sherbet at Baskin-Robbins®, so this is my homemade version.\n                                ",
-      image: "/img/icons/generic-recipe.svg",
-      link: "https://www.allrecipes.com/recipe/258438/jungle-sherbet/",
     },
   ],
   nautical: [
@@ -779,13 +744,6 @@ const recipes = {
       image:
         "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F1099443.jpg",
       link: "https://www.allrecipes.com/recipe/235629/sfogliatelle-ricce/",
-    },
-    {
-      title: "",
-      previewText:
-        "\n                                  I discovered Ham and Pea Soup at a renaissance fair and proceeded home. This recipe is the closest that I came to.  Even my brother, who hates onions and celery, loved this.  Because it makes so much, we tend to cook it only on the holidays. It takes a while to cook, but it is delicious and simple.\n                                ",
-      image: "/img/icons/generic-recipe.svg",
-      link: "https://www.allrecipes.com/recipe/245396/ham-and-pea-soup/",
     },
   ],
 };
