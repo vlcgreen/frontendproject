@@ -27,6 +27,11 @@ header{
     width :100vw;
 
 }
+#partyPeople{
+    grid-column:2/ span 3;
+    text-align:center;
+    margin-top: 1em;
+}
 
 #logo{
     /* background-color:purple; */
