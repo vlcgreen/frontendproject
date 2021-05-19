@@ -790,7 +790,7 @@
 //   },
 // ];
 
-// // arURL = "https://www.allrecipes.com/search/results/?search=ocean";
+// arURL = "https://www.allrecipes.com/search/results/?search=ocean";
 // let recipes = [];
 
 // $.get(arURL).done((recipeData) => {
@@ -815,7 +815,6 @@
 //     // console.log(foundRecipes[i]);
 
 //     // // preview text info
-//     // let $previewText = $(recipeData).find("div > .card__imageContainer > a");
 //     let previewText = $textData[i].innerText;
 //     createCard(title, previewText, src, link);
 //   }
