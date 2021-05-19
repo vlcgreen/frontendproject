@@ -73,14 +73,19 @@ amazonPull();
 
 
 function createCard(title, price, image, link) {
+    if(title.length > 100){
+        var shortText = title.substring(0, 100) + "...";
+    }else{ 
+        var shortText = title;
+    }
     var searchContainer = document.querySelector('.amazonSearch')
     var div = document.createElement("div");
     searchContainer.append(div);
-    div.innerHTML = `<div class="card" style="width: 18rem;"><a href ="${link}">
+    div.innerHTML = `<div class="card m-3 cardStyles" style="width: 18rem; height:25rem;"><a href ="${link}">
       <img class="card-img-top" src="${image}" alt="Card image cap">
       <div class="card-body">
         <h5 class="card-title">${price}</h5>
-        <p class="card-text">${title}</p>
+        <p class="card-text">${shortText}</p>
         </a>
       </div>
     </div>`;

@@ -36,12 +36,18 @@
   <body>
     <!-- <div id="gradDiv"> -->
         <canvas id="canvas-basic"></canvas>
-        <img src="images/celebrator.png" alt="Celebrator logo" id="mask">
-        <!-- <img src="images/AlloyMask1.png" alt="Celebrator logo" id="mask"> -->
-        <!-- <img src="images/alloyTemplate.png" alt="Celebrator logo" id="mask"> -->
+        <!-- <img src="images/celebratorConfetti.png" style= "border-radius:0px;"alt="Celebrator logo" id="mask"> -->
     <!-- </div> -->
+
+        <picture id="mask">
+          <source srcset="images/celebratorSm1.png" media="(max-width:770px)">
+          <img src="images/celebratorConfetti.png" style= "border-radius:0px;"alt="Celebrator logo" >
+        </picture>
+        
+        <!-- <img src="images/AlloyMask1.png" alt="Celebrator logo" id="mask"> -->
+    
     <p id="tagline">
-      Choose a theme. Get food and supply recomendations on the spot. Celebrate
+      Choose a theme.<br>Get food and supply recomendations on the spot.<br> Celebrate
       more, worry less!
     </p>
     <header>
