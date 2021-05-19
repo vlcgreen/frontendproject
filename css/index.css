@@ -20,16 +20,24 @@ z-index: 20;
 #mask{
     z-index:10;
 }
+#mask img {
+    width: 100vw;
+    height:100vh;
+}
+#mask source {
+    width: 100vw;
+    height:100vh;
+}
 
 #tagline{
     z-index:30;
     color:white;
-    font-size: 2em;
-    text-align: center;
-    /* justify-self: center; */
-    justify-self: center;
+    font-size: 1.25em;
+    
+    justify-self: start;
     align-self: center;
-    transform: translateY(115%);
+    transform: translateY(160%);
+    margin-left: 1.5em;
     width:80%;
 }
 
@@ -40,9 +48,21 @@ z-index: 20;
 
 @media only screen and (max-width:1024px){
     #tagline{
-    transform: translateY(30%);
-    width:90%;
-    font-size: 1.5em;
+    transform: translateY(50%);
+    /* width:90%; */
+    margin-left:0px;
+    
+    }
+}
+@media only screen and (max-width:764px){
+    #tagline{
+    transform: translateY(50%);
+    /* width:90%; */
+    margin-left:0px;
+    text-align:center;
+    justify-self:center;
+    
+    
     }
 
 
