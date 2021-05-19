@@ -844,6 +844,7 @@
 //   createCard(title, previewText, src, link);
 // }
 
+
 // function createCard(title, previewText, src, link) {
 //   var recipeContainer = document.querySelector(".recipes");
 //   var div = document.createElement("div");
@@ -868,3 +869,33 @@
 //     link: link,
 //   });
 // }
+
+// function createCard(title, previewText, src, link) {
+//   if(previewText.length > 100){
+//     var shortPreview = previewText.substring(0, 100) + "...";
+//   }else{ 
+//     var shortPreview = previewText;
+//   }
+//   var recipeContainer = document.querySelector('.recipes')
+//   var div = document.createElement("div");
+//   recipeContainer.append(div);
+//   div.innerHTML = `<div class="card  m-3 cardStyles" style="width: 18rem; height:25rem;"><a href ="${link}">
+//     <img class="card-img-top" src="${src}" alt="Allrecipes photo">
+//     <div class="card-body">
+//       <h5 class="card-title">${title}</h5>
+//       <p class="card-text">${shortPreview}</p>
+//       <a/>
+//     </div>
+//   </div>`;
+//   createObject(title, previewText, src, link, recipes);
+// }
+// // function to store recipe data
+// function createObject(title, previewText, src, link, self) {
+//   self.push({
+//     title: title,
+//     previewText: previewText,
+//     image: src,
+//     link: link,
+//   });
+// }
+
