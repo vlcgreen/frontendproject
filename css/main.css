@@ -46,6 +46,10 @@ header{
     
 }
 
+.logoName:hover{
+    color: #00f5d4;
+}
+
 .navbar{
     /* background-color:pink; */
     margin-right:1.75em;
@@ -86,6 +90,36 @@ footer{
     grid-row: 3;
     grid-column-start: 1;
     grid-column-end: 12;
+    width:100vw;
+    display: flex;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.copy{
+    display: flex;
+    width: 60vw;
+}
+
+.footerLinks{
+    display: flex;
+    align-self: center;
+    width: 100vw;
+    padding-left: 10px;
+    align-items: center;
+}
+
+.flinks{
+    width: 100vw;
+    display: flex;
+    justify-content: flex-end;
+    align-self: center;
+}
+
+.footerLinks a{
+    text-decoration: none;
+    color: white;
+    padding: 0px 10px;
 }
 
 

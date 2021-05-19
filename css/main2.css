@@ -41,7 +41,11 @@ header{
   text-decoration: none;
   color: white;
   margin:0px; 
+  
+}
 
+.logoName:hover{
+  color: #00f5d4;
 }
 
 .navbar {
@@ -70,20 +74,38 @@ li {
 
 footer {
   background-color: #0e273c;
-  width:100%;
+  width:100vw;
   height:15%;
   display: flex;
   color: white;
   font-family: 'Poppins', sans-serif;
 }
+p{
+  display: flex;
+  width: 60vw;
+}
+
 .footerLinks{
-  
+  display: flex;
+  align-self: center;
+  width: 100vw;
+  padding-left: 10px;
+  align-items: center;
+}
+
+.flinks{
+  width: 100vw;
+  display: flex;
+  justify-content: flex-end;
+  align-self: center;
 }
 
 .footerLinks a{
   text-decoration: none;
   color: white;
-  justify-content: end;
+  padding: 0px 10px;
+  
+  
 }
 
 /* Display Theme */
