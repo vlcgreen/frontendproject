@@ -45,7 +45,9 @@ async function amazonPull(){
 
     let resultsarr = []
 
+   // const response = await fetch(`https://api.rainforestapi.com/request?api_key=${apiKey}&type=search&amazon_domain=amazon.com&search_term=${theme}+party+decorations&sort_by=most_recent`)
     const response = await fetch(`https://api.rainforestapi.com/request?api_key=${apiKey}&type=search&amazon_domain=amazon.com&search_term=${searchTerm}+party+decorations&sort_by=featured`)
+
     const searchData = await response.json();
     searchResults = searchData;
     console.log(searchResults)
