@@ -31,7 +31,7 @@ Choose a theme. Get food and supply recommendations on the spot. Celebrate more,
 * Add more themes
 * Drink recommendations on theme choice
 * Generate shopping list based on recipe/supply preferences 
-* Code Snippets (show some impressive code)
+
 ## Developer team
 Gisselle - [gisselleroldan](https://github.com/gisselleroldan)
 
